@@ -239,5 +239,23 @@ public class test05 {
 			System.out.println();
 		}
 		*/
+		
+		/* 트리
+		System.out.println();
+		String tree = "";
+		int ht = 0;
+		System.out.print("트리를 세워보아요. 원하는 높이만큼 입력 => ");
+		ht= scan.nextInt();
+		
+		for (int i =0; i <= ht; i++) {
+			for(int j = 0; j < ht-i; j++) {
+				System.out.print(" ");
+			}
+			for(int j = 0; j < i*2+1; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		*/
 	}
 }
