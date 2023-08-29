@@ -1,10 +1,12 @@
 package exec01;
 
+import java.util.*;
+
 public class java230828 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scan = new Scanner(System.in);
 		/* for문 예제
 		// 1번
 		for (int m = 0; m < 3; m++) {			
