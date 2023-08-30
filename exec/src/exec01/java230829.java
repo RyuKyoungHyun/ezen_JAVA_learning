@@ -6,9 +6,62 @@ public class java230829 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		String a = scan.nextLine();
-		char b = a.charAt(0);
-		System.out.print(a);
+		
+		// 자판기 프로그램
+				int inMoney = 0; // 투입금액
+				int nowMoney =0; // 비교를 위한 금액
+				String more = ""; // 선택)음료를 더 할지, 잔액을 뽑을지 선택
+				String select = ""; // 선택)
+				String menu = "";
+				String msg1 = "선택가능 음료 >> ";
+				String msg2 = "새로운 메뉴를 입력해 주세요 => ";
+				String msg3 = "바꾸실 금액을 입력해 주세요 => ";
+				String msg4 = "추가하시려면 '+', 빼시려면 '-'를 입력해 주세요 => ";
+				// 메뉴
+				String menu1 = "사이다";
+				String menu2 = "콜라";
+				String menu3 = "커피";
+				String menu4 = "유자차";
+				// 금액
+				int menu1Cost = 1200; 
+				int menu2Cost = 1500; 
+				int menu3Cost = 1000; 
+				int menu4Cost = 800; 
+				// 재고
+				int menu1Count = (int)(Math.random()* 7)+2;
+				int menu2Count = (int)(Math.random()* 7)+2;
+				int menu3Count = (int)(Math.random()* 7)+2;
+				int menu4Count = (int)(Math.random()* 7)+2;
+				// 잔액 코인종류
+				int c5000 = 0;
+				int c1000 = 0;
+				int c500 = 0;
+				int c100 = 0;
+				int c50 = 0;
+				int c10 = 0;
+				int c5 = 0;
+				int c1 = 0;
+				// 종료 / 관리자
+				int exit = 0;
+				int manage = 0;
+				String manSelect = ""; //선택)
+				String finalSelect = ""; //선택)
+				String change = ""; //선택)
+				String addSelect = "";
+				int addCount = 0;
+				int menuCount = 0;
+				
+				
+				
+//				int a = scan.nextLine();
+				int a = scan.nextInt();
+//				System.out.printf("%d",a);
+				System.out.print(5+ a);
+				
+				System.out.printf("%n1 : %s 로 변경되었습니다.", menu1);
+				System.out.printf("%n2 : %s 로 변경되었습니다.", menu2);
+				System.out.printf("%n3 : %s 로 변경되었습니다.", menu3);
+				System.out.printf("%n4 : %s 로 변경되었습니다.", menu4);
 		// 아침 복습
 		/*
 		// 1번
