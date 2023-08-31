@@ -230,7 +230,7 @@ public class java230830 {
 									case '+' :
 										System.out.printf("%n추가하실 수량을 입력해 주세요 => ");
 										addCount = Integer.parseInt(scan.nextLine());
-										menuCount = addCount;
+		                                                   								menuCount = addCount;
 										break addMinus;
 									case '-' :
 										System.out.printf("%n빼실 수량을 입력해 주세요 => ");
