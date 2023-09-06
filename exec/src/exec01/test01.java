@@ -6,8 +6,11 @@ import java.util.*;
  * 작성자 :
  * 수정일 : 2023.01.04 김아무개 _ 수정 했음
  * */
-public class test01 {
 
+public class test01 {
+	public static class Tv {
+		int i =15;		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 여기

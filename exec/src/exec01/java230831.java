@@ -4,7 +4,6 @@ import java.util.*;
 public class java230831 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
 		// 연산자 문제모음
 		//3번
 		System.out.println("--3번-------------");
