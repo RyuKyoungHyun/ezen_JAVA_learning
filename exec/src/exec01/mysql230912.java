@@ -135,6 +135,12 @@ public class mysql230912 {
 //			addDate(addDate(date(hiredate), interval 3 month ), interval 7-dayofweek(addDate(date(hiredate), interval 3 month ))+2 day)
 //		from emp;
 //	        
+//		select empno, ename, date(hiredate), 
+//		WEEKDAY(addDate(date(hiredate), interval 3 month)) AS DAYOFWEEK_3MONTHS,
+//		adddate(date(hiredate), interval 3 month) as AFTER_3MONTHS,
+//		addDate(addDate( date(hiredate), interval 3 month ),
+//			interval ( 6 - WEEKDAY(addDate(date(hiredate), interval 3 month)) + 1 ) day) AS MONDAY
+//   from emp;
 //	-- 4
 //	select empno, ename, mgr, 
 //			case 
